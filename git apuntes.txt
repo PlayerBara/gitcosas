@@ -1,0 +1,36 @@
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+--crear repositorio--
+git init
+
+--crear commit--
+git commit -m "nombre del commit"
+
+--crear rama--
+git branch -M nombre de la rama
+
+--añadir origen remoto--
+git remote add origin link
+
+--añadir cambios--
+git add nombre del archivo
+
+--fusion de ramas--
+git merge nombre del archivo de la fusion
+
+--resetear index y directorio a la ultima version--
+git reset (--hard HEAD)
+
+--obtener archivos del repositorio y combina con el local--
+git pull origin
+
+--envia los objetos modificados al repositorio remoto--
+git push origin nombre de la rama
+
+--Muestra versiones del repositorio remoto--
+git remote origin
+
+
+
+
