@@ -1,5 +1,5 @@
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+$ git config --global user.name "Ivan"
+$ git config --global user.email kodaroficial@gmail.com
 
 --crear repositorio--
 git init
@@ -20,7 +20,7 @@ git add nombre del archivo
 git merge nombre del archivo de la fusion
 
 --resetear index y directorio a la ultima version--
-git reset (--hard HEAD)
+git reset --hard HEAD
 
 --obtener archivos del repositorio y combina con el local--
 git pull origin
